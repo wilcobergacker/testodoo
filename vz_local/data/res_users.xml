@@ -1,0 +1,25 @@
+<odoo noupdate="0">
+    <data>
+
+        <record id="base.ir_mail_server_localhost0" model="ir.mail_server">
+            <field name="name">localhost</field>
+            <field name="smtp_host">localhost</field>
+            <field eval="25" name="smtp_port"/>
+            <field eval="10" name="sequence"/>
+        </record>
+
+
+        <!-- users -->
+        <record id="vz_user_partner_1" model="res.partner">
+            <field name="name">Hamed Hassan Zadah</field>
+            <field name="customer" eval="False"/>
+            <field name="email">hamed@vitamineenzo.nl</field>
+        </record>
+
+        <record id="vz_user_1" model="res.users">
+            <field name="partner_id" ref="vz_user_partner_1"/>
+            <field name="login">hamed@vitamineenzo.nl</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    </data>
+</odoo>

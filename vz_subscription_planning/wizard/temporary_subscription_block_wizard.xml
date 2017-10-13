@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_subscription_planning_temporary_block" model="ir.ui.view">
+            <field name="name">subscription.planning.temporary.block.view</field>
+            <field name="model">subscription.planning.temporary.block</field>
+            <field name="arch" type="xml">
+                <form string="Temporary Block">
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                        </group>
+                        <group>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="subscription_ids" widget="many2many_tags"/>
+                    </group>
+                    <footer>
+                        <button name="set_block" string="Block" type="object" class="oe_highlight"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_view_subscription_planning_temporary_block" model="ir.actions.act_window">
+            <field name="name">Subscription Block</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">subscription.planning.temporary.block</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_subscription_planning_temporary_block"/>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

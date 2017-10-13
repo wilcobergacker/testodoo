@@ -1,0 +1,21 @@
+<odoo noupdate="0">
+    <data>
+        <delete id="sale_order_type.normal_sale_type" model="sale.order.type"/>
+
+        <record id="vz_sale_order_type_1" model="sale.order.type">
+            <field name="name">Subscription</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="sequence_id" ref="sale.seq_sale_order"/>
+            <field name="create_subscription" eval="True"/>
+            <field name="picking_policy">direct</field>
+        </record>
+
+        <record id="vz_sale_order_type_2" model="sale.order.type">
+            <field name="name">One-time sale</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="sequence_id" ref="sale.seq_sale_order"/>
+            <field name="create_subscription" eval="False"/>
+            <field name="picking_policy">one</field>
+        </record>
+    </data>
+</odoo>

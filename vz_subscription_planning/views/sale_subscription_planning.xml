@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="subscription_planning_tree_view" model="ir.ui.view">
+        <field name="name">sale.subscription.planning.tree</field>
+        <field name="model">sale.subscription.planning</field>
+        <field name="arch" type="xml">
+            <tree create="0" string="Subscription Planning">
+                <field name="subscription_id"/>
+                <field name="date_start"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="subscription_planning_form_view" model="ir.ui.view">
+        <field name="name">sale.subscription.planning.form</field>
+        <field name="model">sale.subscription.planning</field>
+        <field name="arch" type="xml">
+            <form create="0" string="Subscription Planning">
+                <group>
+                    <group name="main_grp">
+                        <field name="subscription_id"/>
+                        <field name="date_start"/>
+                    </group>
+                </group>
+                <group>
+                    <field name="line_ids"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="subscription_planning_action" model="ir.actions.act_window">
+        <field name="name">Subscription Planning</field>
+        <field name="res_model">sale.subscription.planning</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to add a new type.
+          </p>
+        </field>
+    </record>
+
+</odoo>

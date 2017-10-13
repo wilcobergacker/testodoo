@@ -1,0 +1,3 @@
+journal,reference,date,narration,partner_reference,account_code,debit,credit,date_maturity,
+Bank,INV/2017/0001,2017-07-10,Due Payment Received,GOLD_PARTNER,100201,2000,0.0,2017-07-20,
+,,,,GOLD_PARTNER,100400,0.0,2000,2017-07-20,

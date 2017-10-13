@@ -1,0 +1,1 @@
+UPDATE res_company SET password_length = 8;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    
+    <record id="dev_procurement_order_delivery_date_inherit_form" model="ir.ui.view">
+         <field name="name">dev.procurement_order.delivery.date.inheri.form</field>
+         <field name="model">procurement.order</field>
+         <field name="inherit_id" ref="procurement.procurement_form_view"/>
+         <field name="arch" type="xml">
+            <xpath expr="//group//group[@name='scheduling']//field[@name='date_planned']" position="before">
+                <field name="delivery_date"/>
+            </xpath>
+         </field>
+    </record>
+    
+</data>
+</openerp>

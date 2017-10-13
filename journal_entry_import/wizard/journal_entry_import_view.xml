@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_journal_entry_import_wiz" model="ir.ui.view">
+        <field name="name">journal.entry.wiz</field>
+        <field name="model">journal.entry.import</field>
+        <field name="arch" type="xml">
+            <form string="Import Journal entries" version="7.0">
+                <group>
+                    <field name="file" required='1'/>
+                </group>
+                <footer>
+                    <button name="import_csv" string="Import" type="object"
+                        class="oe_highlight" />
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_journal_entry_wiz" model="ir.actions.act_window">
+        <field name="name">Import Journal Entries</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">journal.entry.import</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_journal_entry_import_wiz" />
+        <field name="target">new</field>
+    </record>
+
+    <menuitem name="Import Journal Entries" id="menu_journal_entries_import"
+        parent="account.menu_finance_entries" action="action_journal_entry_wiz" />
+        
+</odoo>

@@ -1,0 +1,11 @@
+<odoo noupdate="0">
+    <data>
+        <record id="vz_subscription_template_1" model="sale.subscription.template">
+            <field name="name">Wekelijks</field>
+            <field name="code">W</field>
+            <field name="recurring_interval">1</field>
+            <field name="recurring_rule_type">weekly</field>
+            <field name="user_closeable" eval="True"/>
+        </record>
+    </data>
+</odoo>

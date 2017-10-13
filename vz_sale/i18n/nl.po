@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vz_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 13:02+0000\n"
+"PO-Revision-Date: 2017-10-02 15:04+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: nl\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#. module: vz_sale
+#: model:ir.model,name:vz_sale.model_res_company
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_contact_person_id
+#: model:ir.model.fields,field_description:vz_sale.field_sale_subscription_contact_person_id
+msgid "Contact Person"
+msgstr "Contactpersoon"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_type_create_subscription
+msgid "Create Subscription"
+msgstr "Maak abonnement"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_display_client_order_ref
+#: model:ir.model.fields,field_description:vz_sale.field_sale_subscription_client_order_ref
+msgid "Customer Reference"
+msgstr "Referentie klant"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_subscription_partner_shipping_id
+msgid "Delivery Address"
+msgstr "Afleveradres"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_subscription_partner_invoice_id
+msgid "Invoice Address"
+msgstr "Factuuradres"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_type_lock_order
+msgid "Lock Order"
+msgstr "Blokkeer order"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_po_expire
+msgid "PO Expire"
+msgstr "PO Vervaldatum"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_sale_order_po_expire_warned
+msgid "PO Expire Warned"
+msgstr "PO Verval gewaarschuwd"
+
+#. module: vz_sale
+#: model:ir.ui.view,arch_db:vz_sale.view_company_form
+msgid "PO Number Expiration"
+msgstr "PO nummer vervallen"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_res_company_po_number_expire_mail_template
+msgid "PO Number Expiring Mail Template"
+msgstr "PO nummer vervallen e-mail sjabloon"
+
+#. module: vz_sale
+#: model:ir.model.fields,field_description:vz_sale.field_res_company_po_number_expire_days_advance
+msgid "PO Number Expiring Warning Days"
+msgstr "PO nummer vervallen waarschuwingsdagen"
+
+#. module: vz_sale
+#: model:ir.model,name:vz_sale.model_sale_order
+msgid "Quotation"
+msgstr "Offerte"
+
+#. module: vz_sale
+#: code:addons/vz_sale/models/sale_subscription.py:44
+#, python-format
+msgid "Return of displays - Subscription %s"
+msgstr "Retour van displays - Abonnement %s"
+
+#. module: vz_sale
+#: model:ir.actions.server,name:vz_sale.po_number_expiration_check_ir_actions_server
+#: model:ir.cron,cron_name:vz_sale.po_number_expiration_check
+#: model:ir.cron,name:vz_sale.po_number_expiration_check
+msgid "Sale Orders: Check for PO Number Expiration"
+msgstr "Verkooporder: Controleer op PO nummer vervalloing."
+
+#. module: vz_sale
+#: model:ir.model,name:vz_sale.model_sale_subscription
+msgid "Sale Subscription"
+msgstr "Abonnement"
+
+#. module: vz_sale
+#: model:ir.model,name:vz_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Verkooporderregel"
+
+#. module: vz_sale
+#: model:ir.ui.view,arch_db:vz_sale.view_company_form
+msgid "Subscription Settings"
+msgstr "Abonnement instellingen"
+
+#. module: vz_sale
+#: model:ir.model,name:vz_sale.model_sale_order_type
+msgid "Type of sale order"
+msgstr "Verkooporder type"

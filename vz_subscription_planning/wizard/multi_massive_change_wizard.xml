@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_subscription_planning_multi_massive_change" model="ir.ui.view">
+            <field name="name">subscription.planning.multi.massive.change.view</field>
+            <field name="model">subscription.planning.multi.massive.change</field>
+            <field name="arch" type="xml">
+                <form string="Multiple Massive Change">
+                    <group>
+                        <group>
+                            <field name="change_price"/>
+                            <field name="price" attrs="{'invisible': [('change_price','=',False)]}"/>
+                        </group>
+                        <group>
+                            <field name="change_qty"/>
+                            <field name="qty" attrs="{'invisible': [('change_qty','=',False)]}"/>
+                        </group>
+                        <group>
+                            <field name="change_date"/>
+                            <field name="date" attrs="{'invisible': [('change_date','=',False)], 'required': [('change_date','=',True)]}"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="planning_line_ids"/>
+                    </group>
+                    <footer>
+                        <button name="make_change" string="Make Change" type="object" class="oe_highlight"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <act_window id="action_view_planning_multi_massive_change"
+            key2="client_action_multi"
+            name="Multiple Massive Change"
+            src_model="sale.subscription.planning.line"
+            res_model="subscription.planning.multi.massive.change"
+            view_type="form"
+            view_mode="form"
+            target="new"
+            view_id="view_subscription_planning_multi_massive_change"
+            context="{'default_planning_line_ids':active_ids}"
+        />
+
+    </data>
+</odoo>

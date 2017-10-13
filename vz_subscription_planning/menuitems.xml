@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_subscription_planning_top"
+         name="Planning"
+         parent="sale_subscription.menu_sale_subscription_root"
+         sequence="5"/>
+
+    <menuitem id="menu_subscription_planning"
+         parent="menu_subscription_planning_top"
+         action="subscription_planning_action"
+         sequence="1"/>
+
+    <menuitem id="menu_subscription_planning_line"
+         parent="menu_subscription_planning_top"
+         action="subscription_planning_line_tree_action"
+         sequence="5"/>
+
+    <menuitem id="menu_subscription_planning_report_line"
+         parent="menu_subscription_planning_top"
+         action="subscription_planning_line_report_action"
+         sequence="10"/>
+
+    <menuitem id="menu_subscription_planning_temporary_block"
+         parent="menu_subscription_planning_top"
+         action="action_view_subscription_planning_temporary_block"
+         sequence="15"/>
+
+</odoo>

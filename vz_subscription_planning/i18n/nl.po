@@ -1,0 +1,614 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vz_subscription_planning
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-02 13:02+0000\n"
+"PO-Revision-Date: 2017-10-02 15:16+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_change_line_count
+msgid "# of Planning Changes"
+msgstr "# Planning veranderingen"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_count
+msgid "# of Planning Lines"
+msgstr "# Planning lijnen"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_active
+msgid "Active"
+msgstr "Actief"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_form_view
+msgid "Add internal notes..."
+msgstr "Voeg notities toe..."
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:129
+#, python-format
+msgid "Adjustments are not allowed for planning lines closer than 2 days from now"
+msgstr "Aanpassingen zijn niet toegestaan voor planningen die minder dan 2 dagen in de toekomst liggen."
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_changeable
+msgid "Can Be Changed"
+msgstr "Kan veranderd worden"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_order_can_lock
+msgid "Can Lock"
+msgstr "Kan blokkeren"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_massive_change
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_multi_massive_change
+msgid "Cancel"
+msgstr "Annuleer"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_cancel_lines
+msgid "Cancel Planning Lines"
+msgstr "Annuleer planning lijnen"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_change_date
+msgid "Change Date"
+msgstr "Verander datum"
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_subscription_planning_massive_change
+#: model:ir.model,name:vz_subscription_planning.model_subscription_planning_multi_massive_change
+msgid "Change Plan"
+msgstr "Verander planning"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_change_price
+msgid "Change Price"
+msgstr "Verander prijs"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_change_qty
+msgid "Change Qty"
+msgstr "Verander hoeveelheid"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_line_change_ids
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_change_ids
+#: model:ir.ui.view,arch_db:vz_subscription_planning.sale_subscription_view_form
+msgid "Changes"
+msgstr "Veranderingen"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,help:vz_subscription_planning.subscription_planning_action
+#: model:ir.actions.act_window,help:vz_subscription_planning.subscription_planning_line_action
+#: model:ir.actions.act_window,help:vz_subscription_planning.subscription_planning_line_report_action
+#: model:ir.actions.act_window,help:vz_subscription_planning.subscription_planning_line_tree_action
+msgid "Click to add a new type."
+msgstr "Klik om een nieuw type toe te voegen."
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_sale_subscription_order_line
+msgid "Confirm Sale"
+msgstr "Bevestig verkoop"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_create_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_create_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_create_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_create_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_create_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_create_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_create_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_create_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_date
+msgid "Date"
+msgstr "Datum"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_date_changed
+msgid "Date Changed"
+msgstr "Datum veranderd"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:25
+#, python-format
+msgid "Date changed from: %s to %s; "
+msgstr "Datum veranderd van: %s naar %s; "
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_line_day_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_day_name
+msgid "Day Name"
+msgstr "Dagnaam"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_description
+msgid "Description"
+msgstr "Omschrijving"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_destination_order_line_ids
+msgid "Destination Order Lines"
+msgstr "Doel verkooporderregls"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_display_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_display_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_display_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_display_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:11
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:11
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Friday"
+msgstr "Vrijdag"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:122
+#, python-format
+msgid "Grid adjustment for planning lines only supports 'date' columns which cover single day periods"
+msgstr "Grid aanpassingen voor planning lijnen staat alleen 'datum' kolommen toe welke over een enkele dag betrekking hebbeb."
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:106
+#, python-format
+msgid "Grid adjustment for planning lines only supports the 'date' columns field and the 'qty' cell field, got respectively %(column_field)r and %(cell_field)r"
+msgstr "In de grid kunnen alleen datums en hoeveelheden worden aangepast. Odoo kreeg de volgende aanpassing %(column_field)r en %(cell_field)r."
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_search
+msgid "Group By"
+msgstr "Groepeer op"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_id_7826
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_id
+msgid "ID"
+msgstr "ID"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_immutable
+msgid "Immutable"
+msgstr "Onveranderbaar"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_order_line_note
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_note
+msgid "Internal Notes"
+msgstr "Notities"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning___last_update
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change___last_update
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line___last_update
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change___last_update
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change___last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_write_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_write_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_write_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_write_uid
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_write_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_write_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_write_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_write_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.sale_subscription_view_form
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_massive_change
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_multi_massive_change
+msgid "Make Change"
+msgstr "Maak verandering"
+
+#. module: vz_subscription_planning
+#: model:res.groups,name:vz_subscription_planning.subscription_planning_manager
+msgid "Manager"
+msgstr "Manager"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.action_view_planning_massive_change
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_massive_change
+msgid "Massive Change"
+msgstr "Massa verandering"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:8
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:7
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:7
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Monday"
+msgstr "Maandag"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_grid_view
+msgid "Month"
+msgstr "Maand"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.action_view_planning_multi_massive_change
+#: model:ir.ui.view,arch_db:vz_subscription_planning.view_subscription_planning_multi_massive_change
+msgid "Multiple Massive Change"
+msgstr "Meerdere massa veranderingen"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_name
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_name
+msgid "Name"
+msgstr "Naam"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_new_date
+msgid "New Date"
+msgstr "Nieuwe datum"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_new_product_id
+msgid "New Product"
+msgstr "Nieuw product"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_new_qty
+msgid "New Quantity"
+msgstr "Nieuwe hoeveelheid"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_new_price
+msgid "New Unit Price"
+msgstr "Nieuwe prijs"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_old_date
+msgid "Old Date"
+msgstr "Oude datum"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_old_product_id
+msgid "Old Product"
+msgstr "Oude product"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_old_qty
+msgid "Old Quantity"
+msgstr "Oude hoeveelheid"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_old_price
+msgid "Old Unit Price"
+msgstr "Oude prijs"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_origin_order_id
+msgid "Origin Sale Order"
+msgstr "Bron verkooporder"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_line_origin_sale_order_line_id
+msgid "Origin Sale Order Line"
+msgstr "Bron verkooporderregel"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_subscription_line
+msgid "Origin Subscription Line"
+msgstr "Bron abonnement regel"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_partner_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_partner_id
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_search
+msgid "Partner"
+msgstr "Relatie"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_planning_id
+#: model:ir.ui.menu,name:vz_subscription_planning.menu_subscription_planning_top
+#: model:ir.ui.view,arch_db:vz_subscription_planning.sale_subscription_view_form
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+msgid "Planning"
+msgstr "Planning"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_order_line_planning_line_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_planning_line_id
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+msgid "Planning Line"
+msgstr "Planning lijn"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_ids
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_planning_line_ids
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_grid_view
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_pivot_view
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_search
+msgid "Planning Lines"
+msgstr "Planning lijnen"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_line_has_planning_line
+msgid "Planning Related"
+msgstr "Gerelateerde planning"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_price_changed
+msgid "Price Changed"
+msgstr "Prijs veranderd"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:31
+#, python-format
+msgid "Price changed from: %s to %s; "
+msgstr "Prijs veranderd van: %s naar %s; "
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_product_id
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_search
+msgid "Product"
+msgstr "Product"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_product_id_changed
+msgid "Product Changed"
+msgstr "Product veranderd"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:28
+#, python-format
+msgid "Product changed from: %s to %s; "
+msgstr "Product veranderd van: %s naar %s; "
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_qty
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_qty
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_qty
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_form_view
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_qty_changed
+msgid "Quantity Changed"
+msgstr "Hoeveelheid veranderd"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:34
+#, python-format
+msgid "Quantity changed from: %s to %s; "
+msgstr "Hoeveelheid veranderd van: %s naar %s; "
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_sale_order
+msgid "Quotation"
+msgstr "Offerte"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.subscription_planning_line_report_action
+#: model:ir.ui.menu,name:vz_subscription_planning.menu_subscription_planning_report_line
+msgid "Report Planning"
+msgstr "Planning rapportage"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_order_line_id
+msgid "Sale Order Line"
+msgstr "Verkooporderregel"
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_sale_subscription
+msgid "Sale Subscription"
+msgstr "Abonnement"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.server,name:vz_subscription_planning.create_order_line_cron_ir_actions_server
+#: model:ir.cron,cron_name:vz_subscription_planning.create_order_line_cron
+#: model:ir.cron,name:vz_subscription_planning.create_order_line_cron
+msgid "Sale Subscription: Create Sale Order Line from Planning"
+msgstr "Abonnement: Maak verkoopregel vanuit de planning"
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Verkooporderregel"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:13
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:12
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:12
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_line_start_date
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_date_start
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_date_start
+msgid "Start Date"
+msgstr "Startdatum"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_subscription_id
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_search
+msgid "Subscription"
+msgstr "Abonnement"
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_sale_subscription_line
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_change_subscription_line_id
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_line_id
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_search
+msgid "Subscription Line"
+msgstr "Abonnement lijn"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.subscription_planning_action
+#: model:ir.model,name:vz_subscription_planning.model_sale_subscription_planning
+#: model:ir.module.category,name:vz_subscription_planning.module_category_subscription_planning
+#: model:ir.ui.menu,name:vz_subscription_planning.menu_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_form_view
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_tree_view
+msgid "Subscription Planning"
+msgstr "Abonnement planning"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_form_view
+msgid "Subscription Planning Change"
+msgstr "Abonnement planning verandering"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.subscription_planning_change_action
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_change_tree_view
+msgid "Subscription Planning Changes"
+msgstr "Abonnement planning veranderingen"
+
+#. module: vz_subscription_planning
+#: model:ir.model,name:vz_subscription_planning.model_sale_subscription_planning_change
+#: model:ir.model,name:vz_subscription_planning.model_sale_subscription_planning_line
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_form_view
+msgid "Subscription Planning Line"
+msgstr "Abonnement planning lijn"
+
+#. module: vz_subscription_planning
+#: model:ir.actions.act_window,name:vz_subscription_planning.subscription_planning_line_action
+#: model:ir.actions.act_window,name:vz_subscription_planning.subscription_planning_line_tree_action
+#: model:ir.ui.menu,name:vz_subscription_planning.menu_subscription_planning_line
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_tree_view
+msgid "Subscription Planning Lines"
+msgstr "Abonnement planning lijnen"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:14
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:13
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:13
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Sunday"
+msgstr "Zondag"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:11
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:10
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:10
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Thursday"
+msgstr "Donderdag"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:9
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:8
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:8
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_price
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_price
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_multi_massive_change_price
+msgid "Unit Price"
+msgstr "Prijs"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_sale_subscription_planning_line_uom_id
+msgid "Unit of Measure"
+msgstr "Maateenheid"
+
+#. module: vz_subscription_planning
+#: model:res.groups,name:vz_subscription_planning.subscription_planning_user
+msgid "User"
+msgstr "Gebruiker"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_order.py:33
+#, python-format
+msgid "Waiting for Route"
+msgstr "Wacht op route"
+
+#. module: vz_subscription_planning
+#: code:addons/vz_subscription_planning/models/sale_subscription_line.py:10
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning.py:12
+#: code:addons/vz_subscription_planning/models/sale_subscription_planning_change.py:12
+#: code:addons/vz_subscription_planning/wizard/massive_change_wizard.py:9
+#: code:addons/vz_subscription_planning/wizard/multi_massive_change_wizard.py:9
+#: selection:sale.subscription.line,day_name:0
+#: selection:subscription.planning.massive.change,weekday:0
+#, python-format
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#. module: vz_subscription_planning
+#: model:ir.ui.view,arch_db:vz_subscription_planning.subscription_planning_line_grid_view
+msgid "Week"
+msgstr "Week"
+
+#. module: vz_subscription_planning
+#: model:ir.model.fields,field_description:vz_subscription_planning.field_subscription_planning_massive_change_weekday
+msgid "Weekday"
+msgstr "Weekdag"

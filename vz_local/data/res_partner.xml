@@ -1,0 +1,50 @@
+<odoo>
+    <data noupdate="0">
+        <record id="vz_company_partner_1" model="res.partner" context="{'default_is_company': True}">
+            <field name="name">We Love Fruit International B.V.</field>
+            <field name="street">Westbaan 321</field>
+            <field name="zip">2841MC</field>
+            <field name="city">Moordrecht</field>
+            <field name="phone">0182 – 600110</field>
+            <field name="email">info@vitamineenzo.nl</field>
+            <field name="country_id" ref="base.nl"/>
+            <field name="vat">NL856783857B01</field>
+            <field name="image" type="base64" file="vz_local/img/vz.png"/>
+            <field name="company_id" eval="None"/>
+            <field name="customer" eval="False"/>
+            <field name="is_company" eval="True"/>
+            <field name="website">https://www.vitamineenzo.nl/</field>
+        </record>
+
+        <record id="vz_company_partner_2" model="res.partner" context="{'default_is_company': True}">
+            <field name="name">VZ Concern</field>
+            <field name="street">Westbaan 321</field>
+            <field name="zip">2841MC</field>
+            <field name="city">Moordrecht</field>
+            <field name="phone">0182 – 600110</field>
+            <field name="email">info@vitamineenzo.nl</field>
+            <field name="country_id" ref="base.nl"/>
+            <field name="image" type="base64" file="vz_local/img/vz.png"/>
+            <field name="company_id" eval="None"/>
+            <field name="customer" eval="False"/>
+            <field name="is_company" eval="True"/>
+            <field name="website">https://www.vitamineenzo.nl/</field>
+        </record>
+
+        <record id="base.main_partner" model="res.partner">
+            <field name="name">Vitamine &amp; Zo B.V.</field>
+            <field name="street">Westbaan 321</field>
+            <field name="zip">2841MC</field>
+            <field name="city">Moordrecht</field>
+            <field name="phone">0182 – 600110</field>
+            <field name="email">info@vitamineenzo.nl</field>
+            <field name="country_id" ref="base.nl"/>
+            <field name="vat">NL807579944B01</field>
+            <field name="image" type="base64" file="vz_local/img/vz.png"/>
+            <field name="company_id" eval="None"/>
+            <field name="customer" eval="False"/>
+            <field name="is_company" eval="True"/>
+            <field name="website">https://www.vitamineenzo.nl/</field>
+        </record>
+    </data>
+</odoo>

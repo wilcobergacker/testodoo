@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="000" model="account.group">
+            <field name="name">Immateriële vaste activa</field>
+
+            <field name="code_prefix">000</field>
+        </record>
+        <record id="010" model="account.group">
+            <field name="name">Materiële vaste activa</field>
+
+            <field name="code_prefix">010</field>
+        </record>
+        <record id="020" model="account.group">
+            <field name="name">Financiële vaste activa</field>
+
+            <field name="code_prefix">020</field>
+        </record>
+        <record id="030" model="account.group">
+            <field name="name">Voorraden en onderhanden werk</field>
+
+            <field name="code_prefix">030</field>
+        </record>
+        <record id="040" model="account.group">
+            <field name="name">Vorderingen</field>
+
+            <field name="code_prefix">040</field>
+        </record>
+        <record id="050" model="account.group">
+            <field name="name">Liquide middelen</field>
+
+            <field name="code_prefix">050</field>
+        </record>
+        <record id="060" model="account.group">
+            <field name="name">Eigen vermogen</field>
+
+            <field name="code_prefix">060</field>
+        </record>
+        <record id="070" model="account.group">
+            <field name="name">Langlopende schulden</field>
+
+            <field name="code_prefix">070</field>
+        </record>
+        <record id="080" model="account.group">
+            <field name="name">Kortlopende schulden</field>
+
+            <field name="code_prefix">080</field>
+        </record>
+        <record id="500" model="account.group">
+            <field name="name">Bruto-marge</field>
+
+            <field name="code_prefix">500</field>
+        </record>
+        <record id="520" model="account.group">
+            <field name="name">Bedrijfskosten</field>
+
+            <field name="code_prefix">520</field>
+        </record>
+        <record id="530" model="account.group">
+            <field name="name">Financiële baten en lasten</field>
+
+            <field name="code_prefix">530</field>
+        </record>
+        <record id="540" model="account.group">
+            <field name="name">Buitengewoon resultaat</field>
+
+            <field name="code_prefix">540</field>
+        </record>
+        <record id="550" model="account.group">
+            <field name="name">Belastingen</field>
+
+            <field name="code_prefix">550</field>
+        </record>
+        <record id="999" model="account.group">
+            <field name="name">Tegenrekening resultaat</field>
+
+            <field name="code_prefix">999</field>
+        </record>
+        <record id="999" model="account.group">
+            <field name="name">Tegenrekening resultaat</field>
+
+            <field name="code_prefix">999</field>
+        </record>
+        <record id="55010" model="account.group">
+            <field name="name">Belastingen</field>
+            <field name="parent_id" ref="550"/>
+            <field name="code_prefix">55010</field>
+        </record>
+        <record id="54010" model="account.group">
+            <field name="name">Buitengewone baten</field>
+            <field name="parent_id" ref="540"/>
+            <field name="code_prefix">54010</field>
+        </record>
+        <record id="53010" model="account.group">
+            <field name="name">Rentebaten en soortgelijke opbrengsten</field>
+            <field name="parent_id" ref="530"/>
+            <field name="code_prefix">53010</field>
+        </record>
+        <record id="53015" model="account.group">
+            <field name="name">Resultaat deelnemingen</field>
+            <field name="parent_id" ref="530"/>
+            <field name="code_prefix">53015</field>
+        </record>
+        <record id="53020" model="account.group">
+            <field name="name">Rentelasten en soortgelijke kosten</field>
+            <field name="parent_id" ref="530"/>
+            <field name="code_prefix">53020</field>
+        </record>
+        <record id="52010" model="account.group">
+            <field name="name">Lonen en salarissen</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52010</field>
+        </record>
+        <record id="52020" model="account.group">
+            <field name="name">Sociale lasten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52020</field>
+        </record>
+        <record id="52025" model="account.group">
+            <field name="name">Overige personeelskosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52025</field>
+        </record>
+        <record id="52030" model="account.group">
+            <field name="name">Afschrijvingen immateriële vaste activa</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52030</field>
+        </record>
+        <record id="52035" model="account.group">
+            <field name="name">Afschrijvingen materiële vaste activa</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52035</field>
+        </record>
+        <record id="52040" model="account.group">
+            <field name="name">Autokosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52040</field>
+        </record>
+        <record id="52050" model="account.group">
+            <field name="name">Kantoorkosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52050</field>
+        </record>
+        <record id="52060" model="account.group">
+            <field name="name">Huisvestingskosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52060</field>
+        </record>
+        <record id="52065" model="account.group">
+            <field name="name">Exploitatie- en machinekosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52065</field>
+        </record>
+        <record id="52070" model="account.group">
+            <field name="name">Verkoopkosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52070</field>
+        </record>
+        <record id="52080" model="account.group">
+            <field name="name">Algemene kosten</field>
+            <field name="parent_id" ref="520"/>
+            <field name="code_prefix">52080</field>
+        </record>
+        <record id="50005" model="account.group">
+            <field name="name">Netto-omzet</field>
+            <field name="parent_id" ref="500"/>
+            <field name="code_prefix">50005</field>
+        </record>
+        <record id="50015" model="account.group">
+            <field name="name">Kostprijs van de omzet</field>
+            <field name="parent_id" ref="500"/>
+            <field name="code_prefix">50015</field>
+        </record>
+        <record id="50035" model="account.group">
+            <field name="name">Overige bedrijfsopbrengsten</field>
+            <field name="parent_id" ref="500"/>
+            <field name="code_prefix">50035</field>
+        </record>
+        <record id="08040" model="account.group">
+            <field name="name">Crediteuren</field>
+            <field name="parent_id" ref="080"/>
+            <field name="code_prefix">08040</field>
+        </record>
+        <record id="08060" model="account.group">
+            <field name="name">Belastingen en premies sociale verzekeringen</field>
+            <field name="parent_id" ref="080"/>
+            <field name="code_prefix">08060</field>
+        </record>
+        <record id="08080" model="account.group">
+            <field name="name">Overige schulden</field>
+            <field name="parent_id" ref="080"/>
+            <field name="code_prefix">08080</field>
+        </record>
+        <record id="08090" model="account.group">
+            <field name="name">Overlopende passiva</field>
+            <field name="parent_id" ref="080"/>
+            <field name="code_prefix">08090</field>
+        </record>
+        <record id="07020" model="account.group">
+            <field name="name">Andere obligaties en onderhandse leningen</field>
+            <field name="parent_id" ref="070"/>
+            <field name="code_prefix">07020</field>
+        </record>
+        <record id="07030" model="account.group">
+            <field name="name">Lening o/g - Financieringen</field>
+            <field name="parent_id" ref="070"/>
+            <field name="code_prefix">07030</field>
+        </record>
+        <record id="07040" model="account.group">
+            <field name="name">Schulden aan groepsmaatschappijen</field>
+            <field name="parent_id" ref="070"/>
+            <field name="code_prefix">07040</field>
+        </record>
+        <record id="06010" model="account.group">
+            <field name="name">Kapitaal</field>
+            <field name="parent_id" ref="060"/>
+            <field name="code_prefix">06010</field>
+        </record>
+        <record id="06020" model="account.group">
+            <field name="name">Agioreserve</field>
+            <field name="parent_id" ref="060"/>
+            <field name="code_prefix">06020</field>
+        </record>
+        <record id="06040" model="account.group">
+            <field name="name">Wettelijke en statutaire reserves</field>
+            <field name="parent_id" ref="060"/>
+            <field name="code_prefix">06040</field>
+        </record>
+        <record id="06050" model="account.group">
+            <field name="name">Overige reserves</field>
+            <field name="parent_id" ref="060"/>
+            <field name="code_prefix">06050</field>
+        </record>
+        <record id="06060" model="account.group">
+            <field name="name">Onverdeeld resultaat</field>
+            <field name="parent_id" ref="060"/>
+            <field name="code_prefix">06060</field>
+        </record>
+        <record id="05010" model="account.group">
+            <field name="name">Liquide middelen</field>
+            <field name="parent_id" ref="050"/>
+            <field name="code_prefix">05010</field>
+        </record>
+        <record id="04010" model="account.group">
+            <field name="name">Handelsdebiteuren</field>
+            <field name="parent_id" ref="040"/>
+            <field name="code_prefix">04010</field>
+        </record>
+        <record id="04020" model="account.group">
+            <field name="name">Vorderingen op groepsmaatschappijen</field>
+            <field name="parent_id" ref="040"/>
+            <field name="code_prefix">04020</field>
+        </record>
+        <record id="04030" model="account.group">
+            <field name="name">Vorderingen op participanten, overige deelnemingen</field>
+            <field name="parent_id" ref="040"/>
+            <field name="code_prefix">04030</field>
+        </record>
+        <record id="04060" model="account.group">
+            <field name="name">Overige vorderingen</field>
+            <field name="parent_id" ref="040"/>
+            <field name="code_prefix">04060</field>
+        </record>
+        <record id="04070" model="account.group">
+            <field name="name">Overlopende activa</field>
+            <field name="parent_id" ref="040"/>
+            <field name="code_prefix">04070</field>
+        </record>
+        <record id="03020" model="account.group">
+            <field name="name">Onderhanden werk</field>
+            <field name="parent_id" ref="030"/>
+            <field name="code_prefix">03020</field>
+        </record>
+        <record id="03030" model="account.group">
+            <field name="name">Gereed product en handelsgoederen</field>
+            <field name="parent_id" ref="030"/>
+            <field name="code_prefix">03030</field>
+        </record>
+        <record id="02030" model="account.group">
+            <field name="name">Overige deelnemingen</field>
+            <field name="parent_id" ref="020"/>
+            <field name="code_prefix">02030</field>
+        </record>
+        <record id="02060" model="account.group">
+            <field name="name">Overige vorderingen</field>
+            <field name="parent_id" ref="020"/>
+            <field name="code_prefix">02060</field>
+        </record>
+        <record id="01010" model="account.group">
+            <field name="name">Gebouwen en terreinen</field>
+            <field name="parent_id" ref="010"/>
+            <field name="code_prefix">01010</field>
+        </record>
+        <record id="01030" model="account.group">
+            <field name="name">Inventaris</field>
+            <field name="parent_id" ref="010"/>
+            <field name="code_prefix">01030</field>
+        </record>
+        <record id="01040" model="account.group">
+            <field name="name">Vervoermiddelen</field>
+            <field name="parent_id" ref="010"/>
+            <field name="code_prefix">01040</field>
+        </record>
+        <record id="01050" model="account.group">
+            <field name="name">Tussenrekening investeringen</field>
+            <field name="parent_id" ref="010"/>
+            <field name="code_prefix">01050</field>
+        </record>
+        <record id="00010" model="account.group">
+            <field name="name">Goodwill</field>
+            <field name="parent_id" ref="000"/>
+            <field name="code_prefix">00010</field>
+        </record>
+    </data>
+</odoo>
