@@ -1,9 +1,0 @@
-<odoo>
-
-    <template id="assets_backend" name="grid assets" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/vz_subscription_planning/static/src/js/grid_renderer.js"/>
-        </xpath>
-    </template>
-
-</odoo>
